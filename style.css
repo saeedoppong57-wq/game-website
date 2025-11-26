@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    margin: 0;
+    padding: auto;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    justify-content: center;
+    gap: 500px;
+}
+hr{
+    border-color: orangered;
+}
+span{
+    color: orangered;
+}
+button{
+    height: 40px;
+    width: 140px;
+    border-radius: 50px;
+    background-color: rgba(240, 161, 13, 0.959);
+    border: none;
+    color: black;
+    align-items: center;
+}
+body{
+    background-image: url(553497.jpg);
+    background-size: cover;
+}
+nav,ul,li{
+    display: flex;
+
+    margin: 10px;
+}
+.logo{
+    font-size: 25px; 
+}
+.game{
+    font-size: 80px;
+    margin-top: 320px;
+    margin-left: 150px;
+}
+.text{
+    margin-left: 150px;
+}
+.read{
+    margin-left: 150px;
+}
