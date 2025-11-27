@@ -13,7 +13,7 @@ header{
     background-color: black;
     height: 100px;
     justify-content: center;
-    gap: 500px;
+    gap: 390px;
 }
 hr{
     border-color: orangered;
@@ -31,13 +31,16 @@ button{
     align-items: center;
 }
 body{
-    background-image: url(553497.jpg);
-    background-size: cover;
+    background-image: url(images/553497.jpg);
+    background-size: 1940px;
+    background-repeat: no-repeat;
 }
 nav,ul,li{
     display: flex;
-
-    margin: 10px;
+    margin: 20px;
+}
+a:hover{
+    color: orange;
 }
 .logo{
     font-size: 25px; 
@@ -52,4 +55,101 @@ nav,ul,li{
 }
 .read{
     margin-left: 150px;
+}
+.main{
+    display: flex;
+    margin-top: 150px;
+    background-color: white;
+    height: 900px;
+    align-items: center;
+}
+.one{
+    display: block;
+    width: 20%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.281),rgba(255, 255, 255, 0.205)), url(images/genji.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    height: 600px;
+}
+.new{
+    background-color: rgb(235, 23, 23);
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+div p{
+    width: 220px;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.two{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.219),rgba(0, 0, 0, 0.233),rgba(255, 255, 255, 0.158)), url(images/genji1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 600px;
+}
+.strategy{
+    background-color: rgb(17, 184, 17);
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+.three{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.226), rgba(255, 255, 255, 0.068)),url(images/iphone-xs-overwatch-background-nfo46tp7kl05ctqu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 600px;
+}
+.nice{
+    background-color: rgb(235, 23, 23);
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-top: 5px;
+}
+.four{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.363),rgba(255, 255, 255, 0.068)),url(images/04ffde768869fb84c182ee0b5523795f.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 600px;
+}
+.racing{
+    background-color: rgb(170, 86, 248);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-top: 5px;
+}
+.comments{
+    color: rgba(255, 255, 255, 0.384);
+    margin-top: 30px;
+}
+.lorem{
+    color: rgba(255, 255, 255, 0.603);
+    margin-top: 200px;
+}
+.ht{
+    margin-top: 250px;
+    font-size: 25px;
+    margin-bottom: -150px;
 }
